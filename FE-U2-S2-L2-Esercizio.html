@@ -113,26 +113,36 @@ EXTRAS
     />
   </head>
   <body>
-    <div class="row">
-      <div class="col-md">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand p-6" href="#"> <img src="./assets/logo.png" alt="logo" width="80px" /></a>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Saldi</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Welcome Summer</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Last Minute</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Recensioni</a></li>
-            </ul>
-          </div>
-          <form class="form">
-            <input class="form-control mr-8" type="search" placeholder="Cerca posti da sogno" aria-label="Search" />
-            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Cerca</button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="logo" width="80px" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Saldi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Welcome Summer</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Last Minute</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Recensioni</a></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
-        </nav>
+        </div>
       </div>
-    </div>
+    </nav>
+
     <div class="container mt-5 bg-light">
       <h1>Eveline-R</h1>
       <p>Feel the freedom</p>
@@ -318,5 +328,10 @@ EXTRAS
       </div>
     </div>
     <footer class="footer footer-expand-lg footer-dark bg-dark"></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
